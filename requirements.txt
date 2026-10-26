@@ -1,0 +1,5 @@
+numpy>=1.23
+# OpenCV 5 removed Haar cascades (cv2.CascadeClassifier) - stay on 4.x
+opencv-python>=4.8,<5
+openvino>=2023.3
+PyQt5>=5.15

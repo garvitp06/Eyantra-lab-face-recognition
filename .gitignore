@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+build/
+dist/
+*.spec
+# large model weights - fetch with: python scripts/get_model.py
+openvino_model/
+converted_ir/
+.ov_cache/
+settings.json
+model/*.bak
